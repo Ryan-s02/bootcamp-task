@@ -1,0 +1,8 @@
+.delete{
+    cursor: pointer;
+    color:red;
+}
+
+.checked {
+    text-decoration: line-through;
+  }

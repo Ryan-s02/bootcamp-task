@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <link href="stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="header-font">The Periodic Table of Elements</h1>
+    </header>
+
+    <!-- image that replaces the grid for smaller screen -->
+    <div id="PeriodicTableImage">
+        <img src="PeriodicTable.png" alt="Periodic Table of the Elements">
+    </div>
+
+    <!-- Grid for displaying elements of the periodic table -->
+    <div class="grid-container">
+        <div class="reactive-nonmetals">
+            <p>1</p>
+            <h1>H</h1>
+        </div>
+
+        <!-- 1st row on the grid -->
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="noble-gases">
+            <p>1</p>
+            <h1>He</h1>
+        </div>
+
+        <!-- 2nd row on the grid -->
+        <div class="alkali-metals">
+            <p>3</p>
+            <h1>Li</h1>
+        </div>
+        <div class="alkaline-earth-metals">
+            <p>4</p>
+            <h1>Be</h1>
+        </div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="metalloids">
+            <p>5</p>
+            <h1>B</h1>
+        </div>
+        <div class="reactive-nonmetals">
+            <p>6</p>
+            <h1>C</h1>
+        </div>
+        <div class="reactive-nonmetals">
+            <p>7</p>
+            <h1>N</h1>
+        </div>
+        <div class="reactive-nonmetals">
+            <p>8</p>
+            <h1>O</h1>
+        </div>
+        <div class="reactive-nonmetals">
+            <p>9</p>
+            <h1>F</h1>
+        </div>
+        <div class="noble-gases">
+            <p>10</p>
+            <h1>Ne</h1>
+        </div>
+
+        <!-- 3rd row in grid -->
+        <div class="alkali-metals">
+            <p>11</p>
+            <h1>Na</h1>
+        </div>
+        <div class="alkaline-earth-metals">
+            <p>12</p>
+            <h1>Mg</h1>
+        </div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="post-transition-metals">
+            <p>13</p>
+            <h1>Al</h1>
+        </div>
+        <div class="metalloids">
+            <p>14</p>
+            <h1>Si</h1>
+        </div>
+        <div class="reactive-nonmetals">
+            <p>15</p>
+            <h1>P</h1>
+        </div>
+        <div class="reactive-nonmetals">
+            <p>16</p>
+            <h1>S</h1>
+        </div>
+        <div class="reactive-nonmetals">
+            <p>17</p>
+            <h1>Cl</h1>
+        </div>
+        <div class="noble-gases">
+            <p>18</p>
+            <h1>Ar</h1>
+        </div>
+
+        <!-- 4th row in grid -->
+        <div class="alkali-metals">
+            <p>19</p>
+            <h1>K</h1>
+        </div>
+        <div class="alkaline-earth-metals">
+            <p>20</p>
+            <h1>Ca</h1>
+        </div>
+        <div class="transition-metals">
+            <p>21</p>
+            <h1>Sc</h1>
+        </div>
+        <div class="transition-metals">
+            <p>22</p>
+            <h1>Ti</h1>
+        </div>
+        <div class="transition-metals">
+            <p>23</p>
+            <h1>V</h1>
+        </div>
+        <div class="transition-metals">
+            <p>24</p>
+            <h1>Cr</h1>
+        </div>
+        <div class="transition-metals">
+            <p>25</p>
+            <h1>Mn</h1>
+        </div>
+        <div class="transition-metals">
+            <p>26</p>
+            <h1>Fe</h1>
+        </div>
+        <div class="transition-metals">
+            <p>27</p>
+            <h1>Co</h1>
+        </div>
+        <div class="transition-metals">
+            <p>28</p>
+            <h1>Ni</h1>
+        </div>
+        <div class="transition-metals">
+            <p>29</p>
+            <h1>Cu</h1>
+        </div>
+        <div class="transition-metals">
+            <p>30</p>
+            <h1>Zn</h1>
+        </div>
+        <div class="post-transition-metals">
+            <p>31</p>
+            <h1>Ga</h1>
+        </div>
+        <div class="metalloids">
+            <p>32</p>
+            <h1>Ge</h1>
+        </div>
+        <div class="metalloids">
+            <p>33</p>
+            <h1>As</h1>
+        </div>
+        <div class="reactive-nonmetals">
+            <p>34</p>
+            <h1>Se</h1>
+        </div>
+        <div class="reactive-nonmetals">
+            <p>35</p>
+            <h1>Br</h1>
+        </div>
+        <div class="noble-gases">
+            <p>36</p>
+            <h1>Kr</h1>
+        </div>
+
+        <!-- 5th row in grid -->
+        <div class="alkali-metals">
+            <p>37</p>
+            <h1>Rb</h1>
+        </div>
+        <div class="alkaline-earth-metals">
+            <p>38</p>
+            <h1>Sr</h1>
+        </div>
+        <div class="transition-metals">
+            <p>39</p>
+            <h1>Y</h1>
+        </div>
+        <div class="transition-metals">
+            <p>40</p>
+            <h1>Zr</h1>
+        </div>
+        <div class="transition-metals">
+            <p>41</p>
+            <h1>Nb</h1>
+        </div>
+        <div class="transition-metals">
+            <p>42</p>
+            <h1>Mo</h1>
+        </div>
+        <div class="transition-metals">
+            <p>43</p>
+            <h1>Tc</h1>
+        </div>
+        <div class="transition-metals">
+            <p>44</p>
+            <h1>Ru</h1>
+        </div>
+        <div class="transition-metals">
+            <p>45</p>
+            <h1>Rh</h1>
+        </div>
+        <div class="transition-metals">
+            <p>46</p>
+            <h1>Pd</h1>
+        </div>
+        <div class="transition-metals">
+            <p>47</p>
+            <h1>Ag</h1>
+        </div>
+        <div class="transition-metals">
+            <p>48</p>
+            <h1>Cd</h1>
+        </div>
+        <div class="post-transition-metals">
+            <p>49</p>
+            <h1>In</h1>
+        </div>
+        <div class="post-transition-metals">
+            <p>50</p>
+            <h1>Sn</h1>
+        </div>
+        <div class="metalloids">
+            <p>51</p>
+            <h1>Sb</h1>
+        </div>
+        <div class="metalloids">
+            <p>52</p>
+            <h1>Te</h1>
+        </div>
+        <div class="reactive-nonmetals">
+            <p>53</p>
+            <h1>I</h1>
+        </div>
+        <div class="noble-gases">
+            <p>54</p>
+            <h1>Xe</h1>
+        </div>
+
+        <!-- 6th row in grid -->
+        <div class="alkali-metals">
+            <p>55</p>
+            <h1>Cs</h1>
+        </div>
+        <div class="alkaline-earth-metals">
+            <p>56</p>
+            <h1>Ba</h1>
+        </div>
+        <div class="hidden"></div>
+        <div class="transition-metals">
+            <p>72</p>
+            <h1>Hf</h1>
+        </div>
+        <div class="transition-metals">
+            <p>73</p>
+            <h1>Ta</h1>
+        </div>
+        <div class="transition-metals">
+            <p>74</p>
+            <h1>W</h1>
+        </div>
+        <div class="transition-metals">
+            <p>75</p>
+            <h1>Re</h1>
+        </div>
+        <div class="transition-metals">
+            <p>76</p>
+            <h1>Os</h1>
+        </div>
+        <div class="transition-metals">
+            <p>77</p>
+            <h1>Ir</h1>
+        </div>
+        <div class="transition-metals">
+            <p>78</p>
+            <h1>Pt</h1>
+        </div>
+        <div class="transition-metals">
+            <p>79</p>
+            <h1>Au</h1>
+        </div>
+        <div class="transition-metals">
+            <p>80</p>
+            <h1>Hg</h1>
+        </div>
+        <div class="post-transition-metals">
+            <p>81</p>
+            <h1>Tl</h1>
+        </div>
+        <div class="post-transition-metals">
+            <p>82</p>
+            <h1>Pb</h1>
+        </div>
+        <div class="post-transition-metals">
+            <p>83</p>
+            <h1>Bi</h1>
+        </div>
+        <div class="post-transition-metals">
+            <p>84</p>
+            <h1>Po</h1>
+        </div>
+        <div class="metalloids">
+            <p>85</p>
+            <h1>At</h1>
+        </div>
+        <div class="noble-gases">
+            <p>86</p>
+            <h1>Rn</h1>
+        </div>
+
+        <!-- 7th row in grid -->
+        <div class="alkali-metals">
+            <p>87</p>
+            <h1>Fr</h1>
+        </div>
+        <div class="alkaline-earth-metals">
+            <p>88</p>
+            <h1>Ra</h1>
+        </div>
+        <div class="hidden"></div>
+        <div class="transition-metals">
+            <p>104</p>
+            <h1>Rf</h1>
+        </div>
+        <div class="transition-metals">
+            <p>105</p>
+            <h1>Db</h1>
+        </div>
+        <div class="transition-metals">
+            <p>106</p>
+            <h1>Sg</h1>
+        </div>
+        <div class="transition-metals">
+            <p>107</p>
+            <h1>Bh</h1>
+        </div>
+        <div class="transition-metals">
+            <p>108</p>
+            <h1>Hs</h1>
+        </div>
+        <div class="unknown">
+            <p>109</p>
+            <h1>Mt</h1>
+        </div>
+        <div class="unknown">
+            <p>110</p>
+            <h1>Ds</h1>
+        </div>
+        <div class="unknown">
+            <p>111</p>
+            <h1>Rg</h1>
+        </div>
+        <div class="unknown">
+            <p>112</p>
+            <h1>Cn</h1>
+        </div>
+        <div class="unknown">
+            <p>113</p>
+            <h1>Nh</h1>
+        </div>
+        <div class="unknown">
+            <p>114</p>
+            <h1>Fl</h1>
+        </div>
+        <div class="unknown">
+            <p>115</p>
+            <h1>Mc</h1>
+        </div>
+        <div class="unknown">
+            <p>116</p>
+            <h1>Lv</h1>
+        </div>
+        <div class="unknown">
+            <p>117</p>
+            <h1>Ts</h1>
+        </div>
+        <div class="unknown">
+            <p>118</p>
+            <h1>Og</h1>
+        </div>
+
+        <!-- 8th row in grid -->
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="lanthanoids">
+            <p>57</p>
+            <h1>La</h1>
+        </div>
+        <div class="lanthanoids">
+            <p>58</p>
+            <h1>Ce</h1>
+        </div>
+        <div class="lanthanoids">
+            <p>59</p>
+            <h1>Pr</h1>
+        </div>
+        <div class="lanthanoids">
+            <p>60</p>
+            <h1>Nd</h1>
+        </div>
+        <div class="lanthanoids">
+            <p>61</p>
+            <h1>Pm</h1>
+        </div>
+        <div class="lanthanoids">
+            <p>62</p>
+            <h1>Sm</h1>
+        </div>
+        <div class="lanthanoids">
+            <p>63</p>
+            <h1>Eu</h1>
+        </div>
+        <div class="lanthanoids">
+            <p>64</p>
+            <h1>Gd</h1>
+        </div>
+        <div class="lanthanoids">
+            <p>65</p>
+            <h1>Tb</h1>
+        </div>
+        <div class="lanthanoids">
+            <p>66</p>
+            <h1>Dy</h1>
+        </div>
+        <div class="lanthanoids">
+            <p>67</p>
+            <h1>Ho</h1>
+        </div>
+        <div class="lanthanoids">
+            <p>68</p>
+            <h1>Er</h1>
+        </div>
+        <div class="lanthanoids">
+            <p>69</p>
+            <h1>Tm</h1>
+        </div>
+        <div class="lanthanoids">
+            <p>70</p>
+            <h1>Yb</h1>
+        </div>
+        <div class="lanthanoids">
+            <p>71</p>
+            <h1>Lu</h1>
+        </div>
+
+        <!-- 9th row in grid -->
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="hidden"></div>
+        <div class="actinoids">
+            <p>89</p>
+            <h1>Ac</h1>
+        </div>
+        <div class="actinoids">
+            <p>90</p>
+            <h1>Th</h1>
+        </div>
+        <div class="actinoids">
+            <p>91</p>
+            <h1>Pa</h1>
+        </div>
+        <div class="actinoids">
+            <p>92</p>
+            <h1>U</h1>
+        </div>
+        <div class="actinoids">
+            <p>93</p>
+            <h1>Np</h1>
+        </div>
+        <div class="actinoids">
+            <p>94</p>
+            <h1>Pu</h1>
+        </div>
+        <div class="actinoids">
+            <p>95</p>
+            <h1>Am</h1>
+        </div>
+        <div class="actinoids">
+            <p>96</p>
+            <h1>Cm</h1>
+        </div>
+        <div class="actinoids">
+            <p>97</p>
+            <h1>Bk</h1>
+        </div>
+        <div class="actinoids">
+            <p>98</p>
+            <h1>Cf</h1>
+        </div>
+        <div class="actinoids">
+            <p>99</p>
+            <h1>Es</h1>
+        </div>
+        <div class="actinoids">
+            <p>100</p>
+            <h1>Fm</h1>
+        </div>
+        <div class="actinoids">
+            <p>101</p>
+            <h1>Md</h1>
+        </div>
+        <div class="actinoids">
+            <p>102</p>
+            <h1>No</h1>
+        </div>
+        <div class="actinoids">
+            <p>103</p>
+            <h1>Lr</h1>
+        </div>
+    </div>
+</body>
+
+</html>

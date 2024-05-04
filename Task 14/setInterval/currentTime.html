@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Time</title>
+    <script type="text/javascript">
+        
+
+        // a function to show a digital clock on the webpage using DOM manipulation and making sure that it updates every second
+        function updateTime(){
+
+            //getting the new date
+            const newDate = new Date();
+
+            //getting a neater more "user-friendly" time format
+            const time = newDate.toTimeString().split(" ")[0];
+            console.log(time);
+
+            //accessing the element in the DOM tree with the id of "currentTime" and changing it to display the time
+            document.getElementById("currentTime").innerHTML = `Clock: ${time}`
+        }
+
+        //using setIntervale to call the updateTime function every second so that the current time is always being displayed
+        setInterval(updateTime, 1000)
+
+    </script>
+</head>
+<body>
+    <!--this is where the current time will be displayed-->
+    <h1 id="currentTime"></h1>
+</body>
+</html>

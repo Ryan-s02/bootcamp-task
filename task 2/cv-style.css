@@ -1,0 +1,16 @@
+
+* {
+    margin: 20px;
+    background-color : rgba(211, 206, 192, 0.988);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#Profile {
+    border: 2px solid rgba(211, 206, 192, 0.988);
+    border-radius: 25px 25px 25px 25px;
+    float: left;
+}
+
+.me{
+    display: inline-block;
+}
