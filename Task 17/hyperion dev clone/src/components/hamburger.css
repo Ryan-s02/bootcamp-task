@@ -1,0 +1,21 @@
+.hamburger{
+    width:30px;
+    height: 30px;
+    display: flex;
+    justify-content:space-around;
+    flex-flow: column nowrap;
+    float:inline-end;
+    padding-right: 10px;
+    padding-top:5px;
+}
+
+.burger{
+    width: 30px;
+    height: 4px;
+    
+    background-color: white;
+    /* transform-origin: 1px; */
+    /* transition: all 0.3s linear; */
+    /* float:inline-end; */
+    /* justify-content: flex-end; */
+}

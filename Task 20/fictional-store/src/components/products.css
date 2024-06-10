@@ -1,0 +1,42 @@
+.custom-col {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.custom-row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.card-container {
+  margin: "10rem";
+  display: flex;
+}
+.card-title {
+  text-align: left;
+  margin-top: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.card-artist {
+  text-align: left;
+  margin-top: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+}
+
+.card-genre {
+  text-align: left;
+  margin-top: 1rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.card-price {
+  float: inline-end;
+  margin-top: 1rem;
+  text-align: left;
+  margin-top: 1rem;
+  font-family: "Courier New", Courier, monospace;
+}

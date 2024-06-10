@@ -1,0 +1,47 @@
+.content{
+    background-color: #103452;
+    height: 400px;
+    padding:10px;
+    text-align: center;
+    background-color: #103452;
+}
+
+#goToDashboard{
+    width: 181px;
+    height:63.1px;
+    filter: drop-shadow(0 10px 40px rgba(0, 0, 0, .2));
+    background-color: #bd932e;
+    border-radius: 8.52px;
+    border: none;
+    font-family: var(--MontserratExtraBold);
+    text-align: center;
+    color: white;
+    font-size: large;
+
+}
+
+.motto{
+    font-size: xx-large;
+    background: linear-gradient(270deg, #3b92d3, #52c396);
+    font-family: var(--MontserratExtraBold);
+    color: transparent;
+    background-clip: text;
+    display: list-item;
+}
+
+p{
+    font-family: var(--MontserratExtraBold);
+    color:white;
+    padding-bottom: 25px;
+}
+
+.gold-text{
+    color: #bd932e;
+    font-family: var(--MontserratBold);
+    text-transform: uppercase;
+    line-height: 19.5px;
+}
+
+.white-text{
+    color: white;
+}

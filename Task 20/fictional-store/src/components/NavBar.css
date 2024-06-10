@@ -1,0 +1,68 @@
+.nav-main {
+  background: #cabeb3;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem 0;
+  height: 5rem;
+}
+
+.individual-nav-links{
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.individual-nav-links:hover{
+  color: #8995a1 ;
+}
+
+
+.nav-title {
+  color: #ffffff;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s;
+  font-size: x-large;
+  
+}
+
+/* Hover effect for nav links */
+.nav-title:hover {
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Add a cool underline lil effect on hover */
+.nav-title::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: white;
+  transition: width 0.3s ease, right 0.3s ease;
+}
+
+.nav-title:hover::after {
+  width: 100%;
+  right: 0;
+}
+
+/* Responsive behavior for smaller screens */
+@media (max-width: 768px) {
+  .navbar-custom .container {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    margin-top: 1rem;
+    flex-direction: column;
+  }
+
+  .nav-title {
+    margin: 0.5rem 0;
+  }
+}

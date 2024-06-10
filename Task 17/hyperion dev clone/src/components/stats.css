@@ -1,0 +1,57 @@
+#experience-section{
+    background-color: #b8ffe3;
+    margin: auto;
+}
+
+.statistic{
+    color: #3c92d1;
+    font-family: var(--MontserratBold);
+    font-size: var(--medium-xxx);
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: large;
+    margin: 0;
+
+}
+
+.subtitle{
+    color: #103452;
+    font-family: var(--MontserratBold);
+    font-weight: bold;
+}
+.list-content{
+    color: #4b4b4b;
+}
+ul{
+    list-style: none;
+    margin: 0 ;
+}
+li {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #b8ffe3;
+    text-align: left;
+
+}
+h3{
+    color: #103452;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    margin: 0;
+    padding: 10px;
+    background-color: #b8ffe3;
+
+} 
+
+.experience-title{
+    color: #103452;
+    justify-content: center;
+}
+
