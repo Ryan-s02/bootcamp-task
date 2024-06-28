@@ -17,14 +17,6 @@ app.get("/", function (req, res) {
   res.send(`Welcome ${personObj.name}`);
 });
 
-// Am I correct in saying that I don't need the below lines of code because i have used express.static on the 'public' directory
-// app.get("/about.html", function (req, res) {
-//   res.send("/about.html");
-// });
-// app.get("/contact_us.html", function (req, res) {
-//   res.send("contact_us.html");
-// });
-
 // Start the server and listen on port 3000
 app.listen(3000, function () {
     // Logging a message on the consol indicating the server is up and running
